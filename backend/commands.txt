@@ -1,0 +1,7 @@
+1.
+cd backend
+pip3 freeze > requirements.txt
+cd ..
+
+2.
+uvicorn main:app --reload
