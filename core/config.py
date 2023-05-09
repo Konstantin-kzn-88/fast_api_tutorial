@@ -19,5 +19,6 @@ class Settings:
     SECRET_KEY :str = os.getenv("SECRET_KEY")   #new
     ALGORITHM = "HS256"                         #new
     ACCESS_TOKEN_EXPIRE_MINUTES = 30  #in mins  #new
+    TEST_USER_EMAIL = "test@example.com"  # new
 
 settings = Settings()
